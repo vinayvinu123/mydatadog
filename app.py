@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Flask!'
+    return 'Hello, vinay!'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
 
